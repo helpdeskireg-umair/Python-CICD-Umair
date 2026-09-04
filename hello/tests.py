@@ -9,4 +9,4 @@ class HomePageTests(SimpleTestCase):
 
     def test_home_page_contains_greeting(self):
         response = self.client.get(reverse("home"))
-        self.assertContains(response, "Hello, Umair!")
+        self.assertContains(response, "Hello, Umair Rao!")
